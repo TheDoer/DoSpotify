@@ -28,6 +28,7 @@
 		F16B674625E7B9800065D498 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16B674525E7B9800065D498 /* HomeViewController.swift */; };
 		F16B674B25E7B9810065D498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16B674A25E7B9810065D498 /* Assets.xcassets */; };
 		F16B674E25E7B9810065D498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16B674C25E7B9810065D498 /* LaunchScreen.storyboard */; };
+		F1ED077A25F6DD5000914E3A /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ED077925F6DD5000914E3A /* AuthResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		F16B674A25E7B9810065D498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F16B674D25E7B9810065D498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F16B674F25E7B9810065D498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1ED077925F6DD5000914E3A /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				F162147525E7CFC2000EB994 /* Artist.swift */,
 				F162147725E7CFD7000EB994 /* UserProfile.swift */,
 				F162147925E7D01D000EB994 /* AudioTrack.swift */,
+				F1ED077925F6DD5000914E3A /* AuthResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -203,7 +206,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = akdigital;
 				TargetAttributes = {
 					F16B673D25E7B9800065D498 = {
@@ -264,6 +267,7 @@
 				F162146625E7CCF1000EB994 /* SearchResultsViewController.swift in Sources */,
 				F162147625E7CFC2000EB994 /* Artist.swift in Sources */,
 				F162147425E7CFAD000EB994 /* Playlist.swift in Sources */,
+				F1ED077A25F6DD5000914E3A /* AuthResponse.swift in Sources */,
 				F162147825E7CFD7000EB994 /* UserProfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +312,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -368,6 +373,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
